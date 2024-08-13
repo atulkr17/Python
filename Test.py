@@ -9,6 +9,16 @@
  #
  
 #   print(i)
-s="123"
-print(s.isdigit())
-    
+lst=[1,1,2,2,5,3,5,5]
+
+l=[]
+for i in lst:
+    count =0
+    for j in lst:
+        if i==j:
+            count+=1
+    l.append(count)
+print(l)    
+
+
+
