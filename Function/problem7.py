@@ -15,12 +15,12 @@ def most_used(s):
             d[i]+=1
         else:
             d[i]=1
-    #print(d)        
-    max_value=(max(d.values()))
-
+    max_no = max(d.values())
     for i in d:
-        if d[i]==max_value:
-            print(i,'->',max_value)
+        if d[i]==max_no:
+            print(i,'->',d[i])
             break
-s = 'hello how are you i am fine thank you' 
-most_used(s)  
+
+
+
+most_used('hello how are you i am fine thank you') 
