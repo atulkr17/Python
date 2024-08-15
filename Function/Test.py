@@ -11,19 +11,3 @@ for i in range(len(numbers)):
         if num1+num2==target:
             number1.append((num1,num2))
 print(number1)  '''
-
-def transform(f,l):
-    output=[]
-    for i in l:
-        output.append(f(i))
-    return output    
-def sum(a):
-    add=0
-    for i in a:
-        add=add+i
-    return add    
-
-L = [1,2,3,4,5]
-
-a=transform(lambda x:x**3,L)
-print(sum(a))

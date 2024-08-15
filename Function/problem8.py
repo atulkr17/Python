@@ -22,8 +22,6 @@ def hestogram(l):
         d[str(i+1)+ '-' +str(i+10)]=count
     return d            
 
-
-
 l=[13,42,15,37,22,39,41,50]    
 print(hestogram(l))
 

@@ -9,4 +9,4 @@ def odd_even(num):
       
 for i in range(1,11):
     odd_even(i)
-odd_even("hello")    
+ 
