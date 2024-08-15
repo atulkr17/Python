@@ -11,3 +11,15 @@ for i in range(len(numbers)):
         if num1+num2==target:
             number1.append((num1,num2))
 print(number1)  '''
+l=[1,2,3,[4,5,5,[8,9,3,2],1]]
+l1=[]
+for i in range (len(l)):
+    if isinstance(l[i],list):
+        for j in (l[i]):
+            l1.append(j)
+    else:
+        l1.append(l[i])  
+print(l1)              
+
+    
+
