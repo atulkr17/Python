@@ -1,12 +1,12 @@
 d={
-    'Atul':'bihar',
-    'Amitesh':'bihar',
+    'Atul':'Bihar',
+    'Amitesh':'Bihar',
     'Honey':'Bihar',
     'S.K.P':'UP',
-    'XYZ':'bihar',
-    'Avigya':'jharkhand',
-    'Anoushka':'jharkhand',
-    'Sutapa':'Bangladesh '
+    'Raj shree':'Bihar',
+    'Avigya':'Jharkhand',
+    'Anoushka':'Jharkhand',
+    'Sutapa':'Bangladesh 😀'
 }
 with open('simpleFile','w') as f:
     f.write(str(d))
