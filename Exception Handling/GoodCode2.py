@@ -24,7 +24,7 @@ class Google:
 
 
 
-obj = Google('nitish','nitish@gmail.com','1234','android')
+obj = Google('Atul','atul@gmail.com','1234','android')
 
 try:
   obj.login('nitish@gmail.com','1234','windows')

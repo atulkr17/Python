@@ -21,5 +21,9 @@ for i in range (len(l)):
         l1.append(l[i])  
 print(l1)              
 
-    
+
+
+
+
+
 
