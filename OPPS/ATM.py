@@ -62,7 +62,7 @@ class ATM:
             amount=int(input("Enter amount ") ) 
             if self.balance >= amount:
                 self.balance=self.balance-amount
-                print("withdraw seccessfuly",self.balance)
+                print("withdraw seccessfuly",amount)
             else:
                 print("your balance is unsificent")         
            
