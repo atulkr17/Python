@@ -14,7 +14,7 @@ Output:
 
 The length of rectangle is:  3
 The width of rectangle is:  4
-The perimeter of rectangle is:  14
+The perimeter of rectangle is:  7
 The area of rectangle is:  12
 
 '''
