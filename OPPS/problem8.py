@@ -41,7 +41,7 @@ class  Deck:
        #print(len(self.Cards))
 
     def __str__(self):
-        return  "left Cards"+ str(len(self.Cards) )    
+        return  "left Cards" + str(len(self.Cards) )    
 
     def shuffls(self):
        
