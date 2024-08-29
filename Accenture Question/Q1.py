@@ -1,19 +1,15 @@
-def AddCarry(num1,num2):
-
+def Addcarry(num1,num2):
     total=num1+num2
-    carry1=0
-
-    while(total>0):
+    carry=0
+    while(total > 0):
         listDigit=total%10
-        ListDigit1=num1%10
+        listdigit1=num1%10
+        if listDigit < listdigit1:
+            carry+=1
 
-        if listDigit < ListDigit1:
-            carry1+=1
+        total=total//10 
+        num1=num1//10   
+        
+    return carry
 
-        total//=10
-        num1//=10 
-
-    return carry1
-
-
-print('Total carry :-',AddCarry(451,349))
+print(Addcarry(451,349))
