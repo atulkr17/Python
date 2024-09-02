@@ -7,6 +7,7 @@ def lcp(st):
         print(str)
         second=st[i+1]
         min_no=min(len(first),len(second))
+        print(min_no)
         str=''
 
         for j in range(min_no):

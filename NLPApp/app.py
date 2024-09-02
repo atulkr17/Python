@@ -158,7 +158,7 @@ class NLPAPP:
        self.sentiment_input = Entry(self.root, width=30, show='*')
        self.sentiment_input.pack(pady=(5, 10), ipady=4)
 
-       redirect_but = Button(self.root, text='Analyze sentiment', command=self.do_sentimetanalysis)
+       redirect_but = Button(self.root, text='Analyze sentiment', )
        redirect_but.pack(pady=(10, 10))
 
        self.sentiment_result = Label(self.root, text='' , bg='#a93226', fg='white')
