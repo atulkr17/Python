@@ -1,7 +1,7 @@
 import math
 def Exponet(a,b):
     max=int(math.log2(b))
-    print(max)
+    
     rem=a-(2**max%a)
     while max>0:
             if(2**max>=a and 2**max<=b):
@@ -11,4 +11,4 @@ def Exponet(a,b):
             max-=1
     return 0        
 
-print(Exponet(128,510))    
+print(Exponet(7,12))    

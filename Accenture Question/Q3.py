@@ -12,7 +12,7 @@ def Roman(num):
             num-=number[i]
     return result
 
-print(Roman(19900))        
+print(Roman(49))        
         
        
         
