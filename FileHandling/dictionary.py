@@ -1,3 +1,4 @@
+import json
 d={
     'Atul':'Bihar',
     'Amitesh':'Bihar',
@@ -6,9 +7,10 @@ d={
     'Raj shree':'Bihar',
     'Avigya':'Jharkhand',
     'Anoushka':'Jharkhand',
-    'Sutapa':'Bangladesh 😀'
+    'Sutapa':'Bangladesh '
 }
-with open('simpleFile','w') as f:
-    f.write(str(d))
-with open('simpleFile','r') as f:
-    print(f.read())
+with open('temp.tax','w') as f:
+   c=json.dump(d,f,indent=4)
+
+print(type(c))   
+

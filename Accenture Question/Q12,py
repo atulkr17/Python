@@ -1,0 +1,6 @@
+def countt(num):
+    s=set(num)
+    print(len(s))
+
+num='202083723522827365'
+countt(num)

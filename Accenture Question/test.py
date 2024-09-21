@@ -1,10 +1,8 @@
-def lcp(s):
-   
-   for i in range(len(s)):
-      first=s[i]
-      second=s[i+1]
-            
-
-
-s=["geeksforgeeks", "geeks", "geek", "geezer"]
-print(lcp(s))
+def inf_sequence():
+    num = 0
+    while True:
+        yield num
+        num += 1
+        
+for i in inf_sequence():
+    print(i, end=" ")

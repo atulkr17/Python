@@ -2,7 +2,7 @@ def lcp(st):
     str=st[0]
   
     for i in range(len(st)-1):
-
+        
         first=str
         print(str)
         second=st[i+1]
